@@ -95,7 +95,7 @@ class NavBar extends Component {
                                     </NavItem>
                                     <NavItem>
                                         <button className="logout-button"
-                                            style={{ fontSize: "17px", marginLeft: "30px", margin: "10px", color: "black", borderColor: "#495057", width: "100px" }}
+                                            style={{ fontSize: "17px", marginLeft: "30px", margin: "10px", backgroundColor:"#FFEAA5", color: "black", borderColor: "#495057", width: "100px" }}
                                             onClick={() => (this.props.setLoggedIn())}
                                         >
                                             Log-out

@@ -5,7 +5,7 @@ let events = [
         company: "Brad Bros",
         date: "Nov 21, 2020",
         time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/design-thinking",
+        link: "https://calendly.com/ethanwarnar/zumba",
         points: 15
     },
     {

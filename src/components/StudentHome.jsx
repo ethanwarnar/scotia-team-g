@@ -149,56 +149,61 @@ class StudentHome extends Component {
                         <CardText style={{ fontFamily: 'Poppins', margin: "25px 0px 20px", fontSize: "25px" }}>Friends</CardText>
                         <Row>            
                             <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
+                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center", margin: "0px 0px 2px" }}>
                                     <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {ben}/>
                                 </div>
                             </Col>
                             <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
+                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center", margin: "0px 0px 2px" }}>
                                     <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {harvey} />  
                                 </div>
                             </Col>
                             <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
+                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center", margin: "0px 0px 2px" }}>
                                     <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {tiff} />
                                 </div>
                             </Col>
                             <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
+                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center", margin: "0px 0px 2px" }}>
                                     <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {maddy} />
                                 </div>
                             </Col>
                             <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
+                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center", margin: "0px 0px 2px" }}>
                                     <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {ethan} />
                                 </div>
                             </Col>
                             <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
+                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center", margin: "0px 0px 2px" }}>
                                     <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {brian} />
                                 </div>
                             </Col>
                         </Row>
                     </Col>
                     <Col sm="6">
-                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "25px 0px 50px", borderWidth: "3px" }}>
-                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>HELLOOOO</CardText>
+                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "20px 0px 10px", borderWidth: "3px" }}>
+                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>Weekly Leaderboard</CardText>
                         </Card>
-                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "25px 0px 50px", borderWidth: "3px" }}>
-                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>THIS</CardText>
+                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "0px 0px 20px", borderWidth: "3px" }}>
+                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>1.  Ben Johns - 252 pts</CardText>
+                        
+                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>2.  Harvey Gu - 161 pts</CardText>
+                        
+                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>3.  Madison Buitenhuis - 104 pts</CardText>
                         </Card>
-                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "25px 0px 50px", borderWidth: "3px" }}>
-                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>IS</CardText>
+                        {/* <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "20px 0px 10px", borderWidth: "3px" }}>
+                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>Weekly Leaderboard</CardText>
                         </Card>
-                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "25px 0px 50px", borderWidth: "3px" }}>
-                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>A</CardText>
+                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "0px 0px", borderWidth: "3px" }}>
+                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>1.  Ben Johns - 252 pts</CardText>
                         </Card>
-                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "25px 0px 50px", borderWidth: "3px" }}>
-                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>SAMPLE</CardText>
+                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "0px 0px", borderWidth: "3px" }}>
+                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>2.  Harvey Gu - 161 pts</CardText>
                         </Card>
-                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "25px 0px 50px", borderWidth: "3px" }}>
-                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>WOOHHOO</CardText>
-                        </Card>
+                        <Card body outline style={{ borderRadius: "18px", borderColor: "#495057", margin: "0px 0px 20px", borderWidth: "3px" }}>
+                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>3.  Madison Buitenhuis - 104 pts</CardText>
+                        </Card> */}
+            
                         <Calendar/>
                     </Col>
                 </Row>
