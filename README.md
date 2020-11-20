@@ -1,3 +1,12 @@
+## Introduction 
+According to Mayo Clinic, exercising can help with weight loss, combat health diseases, help improve mental health and promote better sleep! There are various forms of exercise such as yoga, strength-training, endurance-training, pilates and many more!
+
+This pandemic enforced a sudden and unexpected stoppage in our day to day lives and activities. With the closure of gyms, activities and many resources, many of us lost touch with the physical activities and exercises that keeps us mentally and physically healthy.
+
+FitPal is a centralized mobile app that allows you to keep track, plan and stay connected with your own and your peers’ fitness journey! You are able to gain points by attending and partaking in fitness classes!
+
+Link to the web app: https://scotia-team-g.herokuapp.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
