@@ -28,7 +28,15 @@ import {
 import { connect } from 'react-redux'
 
 import { Redirect } from "react-router-dom"
-import { MdAccountCircle } from "react-icons/md"
+import ben from './ben.jpg';
+import harvey from './harvey.jpg';
+import jess from './jess.jpg';
+import far from './far.jpg';
+import ste from './ste.jpg';
+import tiff from './tiff.jpg';
+import maddy from './maddy.jpg';
+import ethan from './ethan.jpg';
+import brian from './brian.jpg';
 
 import { Calendar, NavBar } from '../components'
 
@@ -114,87 +122,60 @@ class StudentHome extends Component {
                             </Col>
                         </Row>
 
-                        <CardText style={{ fontFamily: 'Poppins', margin: "25px 0px 20px", fontSize: "25px" }}>THE GANG</CardText>
+                        <CardText style={{ fontFamily: 'Poppins', margin: "25px 0px 20px", fontSize: "25px" }}>Trending Instructors</CardText>
 
 
                         <Row>
                             <Col sm="4">
                                 <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
+                                    <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {far}/>
                                 </div>
                             </Col>
 
                             <Col sm="4">
                                 <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
+                                    <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {ste} />
                                 </div>
                             </Col>
 
                             <Col sm="4">
                                 <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
+                                    <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {jess} />
                                 </div>
                             </Col>
 
-                            <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
-                                </div>
-                            </Col>
+                        </Row>
 
+                        <CardText style={{ fontFamily: 'Poppins', margin: "25px 0px 20px", fontSize: "25px" }}>Friends</CardText>
+                        <Row>            
                             <Col sm="4">
                                 <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
+                                    <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {ben}/>
                                 </div>
                             </Col>
                             <Col sm="4">
                                 <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
+                                    <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {harvey} />  
                                 </div>
                             </Col>
                             <Col sm="4">
                                 <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
+                                    <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {tiff} />
                                 </div>
                             </Col>
                             <Col sm="4">
                                 <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
+                                    <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {maddy} />
                                 </div>
                             </Col>
                             <Col sm="4">
                                 <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
+                                    <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {ethan} />
                                 </div>
                             </Col>
                             <Col sm="4">
                                 <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
-                                </div>
-                            </Col>
-                            <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
-                                </div>
-                            </Col>
-                            <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
-                                </div>
-                            </Col>
-                            <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
-                                </div>
-                            </Col>
-                            <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
-                                </div>
-                            </Col>
-                            <Col sm="4">
-                                <div style={{ height: "130px", justifyContent: "center", textAlign: "center" }}>
-                                    <MdAccountCircle style={{ height: "100%", width: "100%" }} />
+                                    <img style={{ height: "100%", width: "85%", borderRadius: "2000px"}} src = {brian} />
                                 </div>
                             </Col>
                         </Row>
