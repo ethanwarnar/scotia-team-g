@@ -81,14 +81,14 @@ class Login extends Component {
                         <Container>
                             <NavbarBrand style={{ fontFamily: "Poppins', sans-serif;", fontSize: "23px" }} href="/">
                                 <Logo />
-                                team-g
+                                FitPal
                                 </NavbarBrand>
                             <NavbarToggler onClick={() => this.setState({ isOpen: !this.state.isOpen })} />
                             <Collapse style={{ textAlign: "center" }} isOpen={this.state.isOpen} navbar>
                                 <Col >
                                     <Nav style={{ backgroundColor: '#00000' }} className="mr-auto right" navbar>
                                         <Col sm="7"></Col>
-                                        <ButtonGroup >
+                                        {/* <ButtonGroup >
                                             <button
                                                 autofocus
                                                 className="nav-button"
@@ -103,7 +103,7 @@ class Login extends Component {
                                             >
                                                 Students
                                             </button>
-                                        </ButtonGroup>
+                                        </ButtonGroup> */}
                                     </Nav>
                                 </Col>
                             </Collapse>

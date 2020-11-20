@@ -44,7 +44,8 @@ const mapStateToProps = state => {
         state: dashboard,
         firstName: dashboard.student.firstName,
         isLoggedIn: dashboard.isLoggedIn,
-        eventArray: dashboard.eventArray.array
+        eventArray: dashboard.eventArray.array,
+        points: dashboard.points
     }
 }
 
@@ -63,12 +64,12 @@ class StudentHome extends Component {
                     </Col>
                     <Col sm="3">
                         <Card body outline style={{ borderRadius: "18px", justifyContent: "center", height: "60px", borderColor: "#495057", margin: "15vh 0px 0px", borderWidth: "3px" }}>
-                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>My Events {this.props.eventArray.length} </CardText>
+                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>My Events: {this.props.eventArray.length} </CardText>
                         </Card>
                     </Col>
                     <Col sm="3">
                         <Card body outline style={{ borderRadius: "18px", justifyContent: "center", height: "60px", borderColor: "#495057", margin: "15vh 0px 0px", borderWidth: "3px" }}>
-                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>New Messages</CardText>
+                            <CardText style={{ fontFamily: 'Poppins', fontSize: "22px", textAlign: "center" }}>My points: {this.props.points} </CardText>
                         </Card>
                     </Col>
                 </Row>

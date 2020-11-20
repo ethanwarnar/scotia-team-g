@@ -1,98 +1,110 @@
 let events = [
     {
-        name: "Design Thinking",
-        host: "Bryan Tran",
-        company: "team-g",
-        date: "April 11, 2020",
+        name: "Zumba",
+        host: "Chuck Norris",
+        company: "Brad Bros",
+        date: "Nov 21, 2020",
         time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/design-thinking"
+        link: "https://calendly.com/team-go/design-thinking",
+        points: 15
     },
     {
-        name: "team-g Career Fair",
-        host: "team-g",
-        company: "team-g",
-        date: "May 4, 2020",
+        name: "Hot Yoga",
+        host: "Yoga With Adrienne",
+        company: "Yoga",
+        date: "Nov 23, 2020",
         time: "11AM - 12PM",
-        link: "https://calendly.com/team-go/team-g-career-fair"
+        link: "https://calendly.com/ethanwarnar/hot-yoga",
+        points: 10
     },
     {
-        name: "Virtual Coffee Chats",
-        host: "Sam Walsh",
-        company: "team-g",
-        date: "April 30, 2020",
+        name: "Turf Zone",
+        host: "Bill Anderson",
+        company: "AndersonFitness",
+        date: "Dec 4, 2020",
         time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/virtual-coffee-chats"
+        link: "https://calendly.com/ethanwarnar/turf-day",
+        points: 15
     }, {
-        name: "Recruiter AMA Session",
-        host: "Jess McKenzie",
-        company: "Scotiabank",
-        date: "April 29, 2020",
-        time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/recruiter-ama-session"
+        name: "Chest Day",
+        host: "Norman Saif",
+        company: "High Norm",
+        date: "Nov 27, 2020",
+        time: "4PM - 5PM",
+        link: "https://calendly.com/ethanwarnar/chest-day",
+        points: 20
     },
     {
-        name: "The Art of Power Naps",
-        host: "HEY",
-        company: "Scotiabank",
-        date: "May 1, 2020",
+        name: "Cardio Challenge",
+        host: "Susan Wang",
+        company: "Drakesy",
+        date: "Nov 28, 2020",
         time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/the-art-of-power-naps"
+        link: "https://calendly.com/ethanwarnar/cardio-challenge",
+        points: 15
     },
     {
-        name: "Recruiter AMA Session",
-        host: "team-g",
-        company: "Scotiabank",
-        date: "April 28, 2020",
-        time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/recruiter-ama-session-1",
+        name: "Full-Body",
+        host: "Norman Saif",
+        company: "High Norm",
+        date: "Nov 29, 2020",
+        time: "1PM - 2PM",
+        link: "https://calendly.com/ethanwarnar/full-body",
+        points: 20
     },
     {
-        name: "Intro to SQL Workshop",
-        host: "team-g",
-        company: "Scotiabank",
-        date: "April 24, 2020",
+        name: "Endurance Work",
+        host: "Kyra Lyn",
+        company: "ShowCase",
+        date: "Dec 4, 2020",
         time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/into-to-sql-workshop"
+        link: "https://calendly.com/ethanwarnar/endurance-workout",
+        points: 10
     },
     {
-        name: "The Art of Cappucinos",
-        host: "Ethan Warnar",
+        name: "Fat Burner",
+        host: "Chuck Norris",
         company: "Scotiabank",
-        date: "May 4, 2020",
+        date: "Dec 14, 2020",
         time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/the-art-of-cappucinos"
+        link: "https://calendly.com/ethanwarnar/fat-burner",
+        points: 20
     },
     {
-        name: "Learning React Redux",
-        host: "Ethan Warnar",
-        company: "Scotiabank",
-        date: "April 29, 2020",
+        name: "Free Weight",
+        host: "High Norm",
+        company: "High Norm Inc",
+        date: "Dec 19, 2020",
         time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/learning-react-redux"
+        link: "https://calendly.com/ethanwarnar/free-weight",
+        points:10
     },
     {
-        name: "Guide to Product Management",
-        host: "team-g",
-        company: "Scotiabank",
-        date: "May 2, 2020",
+        name: "Gentle Activity",
+        host: "Chuck Norris",
+        company: "Norris",
+        date: "Dec 20, 2020",
         time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/guide-to-product-management"
+        link: "https://calendly.com/ethanwarnar/chuck-norris",
+        points: 10
     },
     {
-        name: "Redux Seminar",
-        host: "Ethan Warnar",
-        company: "Scotiabank",
-        date: "April 24, 2020",
+        name: "Active Recovery",
+        host: "Eric Musovic",
+        company: "MusicFitness",
+        date: "Dec 24, 2020",
         time: "3PM - 5PM",
-        link: "https://calendly.com/ethanwarnar/react-redux"
+        link: "https://calendly.com/ethanwarnar/active-recovery-workout",
+        points: 15
     },
     {
-        name: "Learning C++",
-        host: "Ethan Warnar",
-        company: "Scotiabank",
-        date: "May 3, 2020",
+        name: "Fit & Fun",
+        host: "Bruce Lee",
+        company: "Lee Bros",
+        date: "Dec 28, 2020",
         time: "3PM - 5PM",
-        link: "https://calendly.com/team-go/learning-c"
+        link: "https://calendly.com/ethanwarnar/fit-fun",
+        points: 10
     },
 
 ];

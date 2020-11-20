@@ -21,4 +21,10 @@ export const addEvent = result => {
     })
 }
 
+export const updatePoints = result => {
+    return ({
+        type: "UPDATE_POINTS",
+        payload: result
+    })
+}
 

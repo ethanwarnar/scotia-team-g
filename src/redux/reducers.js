@@ -12,7 +12,8 @@ const initialState = {
     },
     calendarArray: {
         array: []
-    }
+    },
+    points: 0
 }
 
 function addNewEvent(array, event) {
@@ -53,9 +54,7 @@ const dashboard = (state = initialState, action) => {
             }
         }
         case 'ADD_EVENT': {
-
             var calendarObj = parseEvent(action.payload);
-
             return {
                 ...state,
                 eventArray: {
@@ -64,6 +63,12 @@ const dashboard = (state = initialState, action) => {
                 calendarArray: {
                     array: state.calendarArray.array.concat(calendarObj)
                 }
+            }
+        }
+        case 'UPDATE_POINTS': {
+            return {
+                ...state,
+                points: (parseInt(state.points) + parseInt(action.payload)),
             }
         }
         default:

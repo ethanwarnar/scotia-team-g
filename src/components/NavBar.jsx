@@ -74,7 +74,7 @@ class NavBar extends Component {
 
                         <NavbarBrand style={{ fontSize: "23px" }} href="/team-g/dashboard">
                             <Logo />
-                            team-g
+                            FitPal
                         </NavbarBrand>
                         <NavbarToggler onClick={() => this.setState({ isOpen: !this.state.isOpen })} />
 
@@ -87,11 +87,11 @@ class NavBar extends Component {
                                     <Col sm="2"></Col>
                                     <NavItem style={{ margin: "10px 25px " }}>
                                         <MdDashboard href="/team-g/dashboard" style={{ width: "30", height: "30" }} />
-                                        <a className="nav-button" style={{ textDecoration: "none", fontFamily: 'Poppins', fontSize: "17px" }} href="/team-g/dashboard">zoo</a>
+                                        <a className="nav-button" style={{ textDecoration: "none", fontFamily: 'Poppins', fontSize: "17px" }} href="/team-g/dashboard">Home</a>
                                     </NavItem>
                                     <NavItem style={{ margin: "10px 25px " }}>
                                         <MdEvent href="/team-g/resources" style={{ width: "30", height: "30" }} />
-                                        <a className="nav-button" style={{ textDecoration: "none", fontFamily: 'Poppins', fontSize: "17px" }} href="/team-g/resources">wee </a>
+                                        <a className="nav-button" style={{ textDecoration: "none", fontFamily: 'Poppins', fontSize: "17px" }} href="/team-g/resources">Exercises </a>
                                     </NavItem>
                                     <NavItem>
                                         <button className="logout-button"

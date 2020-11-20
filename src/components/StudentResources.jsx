@@ -35,7 +35,7 @@ import {
     Form,
     FormText
 } from 'reactstrap';
-import { addEvent } from '../redux/actions'
+import { addEvent, updatePoints } from '../redux/actions'
 
 import events from '../data/events'
 
@@ -83,6 +83,10 @@ class StudentResources extends Component {
         this.setState({ search: keyword })
     }
 
+    triggerActions = (x) => {
+        this.props.addNewEvent(x);
+        this.props.updatePoints(x.points);
+    }
     render() {
 
 
@@ -103,19 +107,20 @@ class StudentResources extends Component {
 
                             <Card body outline style={{ height: "200px", justifyContent: "center", borderWidth: "3px", borderRadius: "18px", borderColor: "#495057", margin: "30px 0px 0px" }} >
                                 {/* <div style={{ textAlign: "left" }}> */}
-                                <CardTitle style={{ textAlign: "center", fontFamily: 'Poppins', fontWeight: "bold", fontSize: "19px" }}>{x.name}</CardTitle>
+                                <CardTitle style={{ textAlign: "center", fontFamily: 'Poppins', fontWeight: "bold", fontSize: "19px" }}>{x.name} - {x.points} pts</CardTitle>
 
                                 <CardText style={{ textAlign: "center", fontFamily: 'Poppins', fontSize: "16px" }}>{x.host} - {x.company}</CardText>
                                 <CardText style={{ textAlign: "center", fontFamily: 'Poppins', fontSize: "16px" }}>{x.date} | {x.time}</CardText>
+
                                 {/* <CardText style={{ fontSize: "17px" }}>{x.time}</CardText> */}
                                 {/* </div> */}
                                 <div style={{ textAlign: "center" }}>
                                     <form target="_blank">
                                         <button className="button"
-                                            // formAction={x.link}
+                                            formAction={x.link}
                                             style={{ margin: "5px 0px 0px", color: "black", borderColor: "#495057", width: "125px", fontSize: "15px", textAlign: "center" }}
 
-                                            onClick={() => this.props.addNewEvent(x)}
+                                            onClick={() => this.triggerActions(x)}
                                         >Sign Up
                                     </button>
                                     </form>
@@ -164,6 +169,7 @@ class StudentResources extends Component {
 const mapDispatchToProps = (dispatch) => {
     return {
         addNewEvent: (event) => dispatch(addEvent(event)),
+        updatePoints: (event) => dispatch(updatePoints(event))
     }
 }
 
